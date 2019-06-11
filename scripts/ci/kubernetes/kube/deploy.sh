@@ -19,7 +19,7 @@
 
 set -x
 
-AIRFLOW_IMAGE=${IMAGE:-airflow}
+AIRFLOW_IMAGE=sleyva97/airflow
 AIRFLOW_TAG=${TAG:-latest}
 DIRNAME=$(cd "$(dirname "$0")"; pwd)
 TEMPLATE_DIRNAME=${DIRNAME}/templates
